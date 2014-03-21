@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Border Colors in Console</title>
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="site.css">
+</head>
+<body>
+	
+	<div class="container">
+		
+		<div class="pull-right" id="sort-by">
+			<button class="btn btn-primary" id="hex">Sort By Hex</button>
+			<button class="btn btn-primary btn-warning" id="count">Sort By Count</button>			
+		</div>
+		<div id="chooseFile" class="pull-right">
+			<select name="file" id="file-name">
+				<option value="bg">Background</option>
+				<option value="bgc">Background-color</option>
+				<option value="bdr">Borders</option>
+			</select>
+		</div>
+
+		<h1>All <span>Border</span> Colors set in Console</h1>
+		<div id="output"></div>
+	</div>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/underscore.js"></script>
+	<script src="js/script.js"></script>
+
+
+</body>
+</html>

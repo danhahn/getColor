@@ -1,0 +1,51 @@
+.pull-right {
+	padding-top: 20px;
+}
+
+.tile {
+  width: 220px;
+  float: left;
+  border: 2px solid silver;
+  border-radius: 5px;
+  margin: 0 10px 10px 0;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.tile:nth-of-type(5n) {
+  margin-right: 0;
+}
+.tile .title,
+.tile .text {
+  padding: 5px 10px;
+}
+.tile .title {
+  border-bottom: 1px solid silver;
+  font-size: 3em;
+  text-transform: uppercase;
+  padding: 20px 5px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+.tile .text {
+  font-weight: bold;
+  max-height: 50px;
+}
+#number,
+#variable {
+  clear: both;
+}
+#number .tile,
+#variable .tile {
+  float: none;
+  width: auto;
+  margin-right: 0;
+}
+#number .tile .title,
+#variable .tile .title {
+  font-size: 1.2em;
+  text-transform: inherit;
+  border-bottom: 5px solid gray;
+  padding: 5px;
+}
+#variable .tile .title {
+  border-bottom: 1px solid silver;
+}

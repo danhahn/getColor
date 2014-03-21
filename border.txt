@@ -1,0 +1,137 @@
+Targets
+    String 'border(\s|):\s(\w* \w* #([\w]{6}|[\w]{3})|#([\w]{6}|[\w]{3}) \w* \w*) *;'
+Found usages  (71 usages found)
+    Unclassified usage  (71 usages found)
+        hbui  (71 usages found)
+            v2/public/c2/AssociatedCreativesTable  (1 usage found)
+                Console.less  (1 usage found)
+                    (7: 3) border: 1px solid #BFBFBF;
+            v2/public/c2/BreadcrumbAbstract  (1 usage found)
+                Console.less  (1 usage found)
+                    (12: 2) border: 1px solid #ddd;
+            v2/public/c2/CreativePreview  (4 usages found)
+                creativePreview.less  (4 usages found)
+                    (7: 3) border: 1px solid #A4A4A4;
+                    (34: 4) border: 1px solid #cdcfd0;
+                    (54: 4) border: 1px solid #e2e2e2;
+                    (115: 4) border: #EEE 1px solid;
+            v2/public/c2/ItemSetInput  (3 usages found)
+                Console.less  (3 usages found)
+                    (34: 3) border: solid 1px #a4a4a4;
+                    (55: 3) border: solid 1px #a4a4a4;
+                    (105: 4) border: solid 1px #39b54a;
+            v2/public/c2/ListPagePacingGrid  (2 usages found)
+                ListPagePacingGrid.less  (2 usages found)
+                    (57: 3) border: 1px solid #66b2c6;
+                    (93: 3) border: 1px solid #a4a4a4;
+            v2/public/c2/NoteFormatter  (3 usages found)
+                NoteFormatter.less  (3 usages found)
+                    (6: 3) border: solid 1px #e1e1e1;
+                    (32: 4) border: solid 1px #d5d5d5;
+                    (89: 4) border: solid 1px #d5d5d5;
+            v2/public/c2/OptimizationLookbackSliders  (2 usages found)
+                OptimizationLookbackSliders.less  (2 usages found)
+                    (54: 4) border: #bfbfbf 1px solid;
+                    (99: 5) border: #bfbfbf 1px solid;
+            v2/public/c2/PixelSave  (1 usage found)
+                PixelSave.less  (1 usage found)
+                    (55: 3) border: solid 1px #dcdcdc;
+            v2/public/c2/QuickstatsFormatters  (3 usages found)
+                QuickstatsFormatters.less  (3 usages found)
+                    (62: 3) border: 1px solid #66b2c6;
+                    (99: 2) border: 1px solid #a4a4a4;
+                    (184: 3) border: 1px solid #66b2c6;
+            v2/public/c2/ServingStatusDetails  (1 usage found)
+                ServingStatusDetails.less  (1 usage found)
+                    (16: 2) border: 1px solid #b6b6b6;
+            v2/public/c2/TargetingModules/DeviceSupplyType  (1 usage found)
+                DeviceSupplyType.less  (1 usage found)
+                    (7: 6) border: solid 1px #969696;
+            v2/public/c2/TargetingModules/Summary  (1 usage found)
+                summary.less  (1 usage found)
+                    (2: 2) border: solid 1px #a4a4a4;
+            v2/public/c2/TargetingModules/TargetingTemplate  (1 usage found)
+                TargetingTemplate.less  (1 usage found)
+                    (91: 3) border: solid 1px #bababa;
+            v2/public/c2/TargetingTable  (2 usages found)
+                TargetingTable.less  (2 usages found)
+                    (15: 5) border: solid 1px #dcdcdc;
+                    (68: 5) border: solid 1px #dcdcdc;
+            v2/public/c2/TourDialog  (2 usages found)
+                TourDialog.less  (2 usages found)
+                    (28: 9) border: 4px solid #3D3D3D;
+                    (71: 13) border: 1px solid #C4DBE6;
+            v2/public/c2/UniversalSearch  (2 usages found)
+                UniversalSearch.less  (2 usages found)
+                    (59: 3) border: 1px solid #a3a3a3;
+                    (110: 8) border: 1px solid #fff;
+            v2/public/css  (13 usages found)
+                details.less  (2 usages found)
+                    (176: 2) border: 1px solid #F9F18E;
+                    (421: 4) border: 1px solid #cad8d9;
+                form-view.less  (5 usages found)
+                    (294: 2) border: 1px solid #c4c4c4;
+                    (675: 4) 			border: 1px solid #BABABA;
+                    (1004: 3) border: 1px solid #bfbfbf;
+                    (1009: 4) border: 1px solid #39b54a;
+                    (1046: 3) border: 1px solid #fe9c22;
+                global-header.less  (4 usages found)
+                    (242: 3) border: 1px solid #979797;
+                    (315: 4) border: solid 1px #a4a4a4;
+                    (485: 2) border: 2px solid #eee;
+                    (532: 2) border: 1px solid #999;
+                toolbar.less  (2 usages found)
+                    (133: 3) border: 1px solid #dcdcdc;
+                    (218: 2) border: solid 1px #bfbfbf;
+            v2/public/css/anx-strap  (10 usages found)
+                breadcrumb.less  (1 usage found)
+                    (8: 2) border: 1px solid #a4a4a4;
+                dropdowns.less  (1 usage found)
+                    (51: 2) border: 1px solid #ccc;
+                forms.less  (1 usage found)
+                    (443: 3) border: solid 1px #cccccc;
+                labels-badges.less  (2 usages found)
+                    (59: 51) &-success           { background-color: #eaf3eb; border: 1px solid #c6e0c1; color: #6fb453; text-shadow: none; }
+                    (62: 51) &-info              { background-color: #e5f1f6; border: 1px solid #aeddef; color: #1fa0d3; text-shadow: none;  }
+                layouts.less  (1 usage found)
+                    (43: 2) border: 1px solid #BFBFBF;
+                navs.less  (2 usages found)
+                    (204: 2) border: 1px solid #ddd;
+                    (275: 2) border: 1px solid #ddd;
+                progress-bars.less  (1 usage found)
+                    (121: 2) border: 1px solid #cccccc;
+                sprites.less  (1 usage found)
+                    (494: 2) border: 1px solid #de8313;
+            v2/public/css/tango  (11 usages found)
+                email_management.less  (3 usages found)
+                    (24: 3) border: 1px solid #bfbfbf;
+                    (39: 4) border: 1px solid #bfbfbf;
+                    (45: 4) border: 1px solid #bfbfbf;
+                granular_deals.less  (3 usages found)
+                    (21: 3) border: solid 1px #ccc;
+                    (45: 5) border: 2px solid #d57272;
+                    (289: 4) border: 1px solid #ccc;
+                grid_manager.less  (1 usage found)
+                    (75: 3) border: 1px solid #bfbfbf;
+                mixins.less  (1 usage found)
+                    (123: 2) border: solid 1px #538ebe;
+                partner_settings_editor.less  (1 usage found)
+                    (54: 3) border: 1px solid #bfbfbf;
+                privilege_editor.less  (1 usage found)
+                    (13: 3) border: 1px solid #bfbfbf;
+                relationship.less  (1 usage found)
+                    (39: 3) border: 1px solid #bfbfbf;
+            v2/public/pages/admin-developer/contracts  (1 usage found)
+                page.less  (1 usage found)
+                    (6: 3) border: 1px solid #ddd;
+            v2/public/pages/segment-report/index  (4 usages found)
+                ds.less  (3 usages found)
+                    (68: 6) border: 1px solid #cecece;
+                    (120: 6) border: 1px solid #9FB3B6;
+                    (177: 8) border: 1px solid #1e3636;
+                report.less  (1 usage found)
+                    (63: 4) border: solid 1px #dedede;
+            v2/public/shared/SlideDialog  (2 usages found)
+                SlideDialog.less  (2 usages found)
+                    (35: 3) border: 4px solid #3D3D3D;
+                    (81: 4) border: 1px solid #d6d6d6;
